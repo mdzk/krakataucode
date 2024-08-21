@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--==================== FAVICON ====================-->
+  <!--========== BOX ICONS LIBRARY ==========-->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+  <!--========== Title ==========-->
+  <title>Krakatau Code</title>
+</head>
+
+<body>
+  <!--========== SCROLL TOP ==========-->
+  <a href="https://api.whatsapp.com/send?phone=6289614443691&text=Halo%2C%0ASaya%20ingin%20bertanya%20mengenai%20layanan%20Krakatau%20Code"
+    class="scrollTop show-scroll" id="scroll-top">
+    <img src="assets/img/whatsapp.png" alt="">
+  </a>
+
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="/" class="nav_logo">
+        <img src="assets/img/logo.png" alt="" width="50" height="50">
+        <!-- <b>
+          Krakatau
+          <span>Code</span>
+        </b> -->
+      </a>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#services" class="nav_link">Service</a>
+          </li>
+
+          <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+        </ul>
+      </div>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <button class="menu" aria-label="Abrir Menu" aria-expanded="false"
+         onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))">
+          <svg width="40" height="41" viewBox="0 0 100 100">
+            <path class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div class="clear"></div>
+  </header>
+
+  <main class="l-main">
+    <!--========== HOME ==========-->
+    <section class="home" id="home">
+      <div class="home_container bd-container bd-grid">
+        <div class="home_data">
+          <h1 class="title">Wujudkan Ide mu bersama kami
+          </h1>
+          <p class="description">Kami menerima pembuatan aplikasi serta konsultasi aplikasi yang kamu butuhkan.</p>
+          <br>
+          <a href="#services" class="button">Our Services</a>
+        </div>
+
+        <img src="assets/img/banner.png" alt="Prato de comida saudável" class="home_img" />
+      </div>
+    </section>
+
+    <!--========== ABOUT ==========-->
+    <section class="about section bd-container" id="about">
+      <div class="about_container bd-grid">
+        <div class="about_data">
+          <h2 class="section-title">Tentang Kami</h2>
+          <p class="about_description">
+            Krakatau Code adalah perusahaan konsultan IT yang menawarkan beragam layanan dan solusi teknologi informasi.
+            Kami ahli dalam pengembangan perangkat lunak, analisis data, keamanan cyber, dan konsultasi teknologi untuk
+            berbagai jenis bisnis dan industri. Dengan tim yang berpengalaman, kami berkomitmen untuk memberikan solusi
+            inovatif dan mendukung pertumbuhan digital klien kami.
+          </p>
+        </div>
+        <img src="assets/img/about.png" alt="Ingredientes naturais" class="about_img" />
+      </div>
+    </section>
+
+    <!--========== SERVICES ==========-->
+    <section class="services section bd-container" id="services">
+      <div class="badge-container">
+        <span class="badge">
+          Our Services
+        </span>
+      </div>
+      <h2 class="section-title text-center">Siap Membantu Kebutuhan Kamu</h2>
+
+      <div class="services_container bd-grid">
+        <div class="services_content">
+          <h2>Pembuatan Aplikasi</h2>
+          Kami membantu pengembangan aplikasi sesuai kebutuhan kamu, baik itu mobile maupun website.
+        </div>
+
+        <div class="services_content">
+          <h2>Pemasangan Jaringan</h2>
+          Memberikan akses jaringan baik itu lokal maupun internet, kami juga melayani konfigurasi kebutuhan server.
+        </div>
+
+        <div class="services_content">
+          <h2>Pengadaan Barang</h2>
+          Bagi kamu yang membutuhkan barang seperti komputer untuk lab maupun kantor.
+        </div>
+      </div>
+    </section>
+
+    <!--========== TECH ==========-->
+    <section class="services section bd-container" id="tech">
+      <div class="badge-container">
+        <span class="badge">
+          Development
+        </span>
+      </div>
+      <h2 class="section-title text-center">Teknologi yang Kami Gunakan</h2>
+
+      <div class="services_container bd-grid">
+        <div class="services_content">
+          <img src="./assets/img/kalilinux.png" width="500" height="90" alt="" srcset="">
+
+          <h3 class="services_title">Cyber Security</h3>
+          <!-- <p class="services_description">
+              "Cyber Security"
+            </p> -->
+        </div>
+
+        <div class="services_content">
+          <img src="./assets/img/laravel.png" width="400" height="90" alt="" srcset="">
+          <h3 class="services_title">Laravel</h3>
+          <!-- <p class="services_description">
+             
+            </p> -->
+        </div>
+
+        <div class="services_content">
+          <img src="./assets/img/flutter.png" width="500" height="90" alt="" srcset="">
+          <h3 class="services_title">Flutter</h3>
+          <!-- <p class="services_description">
+           
+            </p> -->
+        </div>
+        <div class="services_content">
+          <img src="./assets/img/nextjs.png" width="500" height="90" alt="" srcset="">
+          <h3 class="services_title">Next Js</h3>
+          <!-- <p class="services_description">
+           
+            </p> -->
+        </div>
+      </div>
+      <div class="services_container bd-grid">
+        <div class="services_content">
+          <img src="./assets/img/nodejs.png" width="100" height="90" alt="" srcset="">
+
+          <h3 class="services_title">Node Js</h3>
+          <!-- <p class="services_description">
+                "Cyber Security"
+              </p> -->
+        </div>
+
+        <div class="services_content">
+          <img src="./assets/img/ci.png" width="400" height="90" alt="" srcset="">
+          <h3 class="services_title">Codeigniter</h3>
+          <!-- <p class="services_description">
+               
+              </p> -->
+        </div>
+
+        <div class="services_content">
+          <img src="./assets/img/kotlin.png" width="300" height="90" alt="" srcset="">
+          <h3 class="services_title">Kotlin</h3>
+          <!-- <p class="services_description">
+             
+              </p> -->
+        </div>
+
+        <div class="services_content">
+          <img src="./assets/img/angular.png" width="300" height="90" alt="" srcset="">
+          <h3 class="services_title">Angular</h3>
+          <!-- <p class="services_description">
+               
+                </p> -->
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            Hubungi Kami
+          </b>
+
+          <span class="footer_description">
+            Jangan ragu untuk menghubungi kami untuk pertanyaan, saran, atau kerjasama.
+            Kami siap membantu Anda dengan apa pun yang Anda butuhkan.
+          </span>
+
+          <div>
+            <a href="#" class="footer_social"><i class="bx bxl-gmail"></i></a>
+            <a href="https://instagram.com/krakataucode" class="footer_social"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Alamat</h3>
+          <ul>
+            Jl. Soekarno Hatta No.10, Rajabasa Raya, Kec. Rajabasa, Kota Bandar Lampung, Lampung 35141
+          </ul>
+        </div>
+
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15889.669499166368!2d105.22023841125359!3d-5.353101309294825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c546c12631f7%3A0x4122ee5265573ef3!2sRajabasa%20Raya%2C%20Kec.%20Rajabasa%2C%20Kota%20Bandar%20Lampung%2C%20Lampung!5e0!3m2!1sid!2sid!4v1690244690059!5m2!1sid!2sid"
+            frameborder="0" style="border:0; width: 100%; height: 200px;" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; Krakatau Code
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
